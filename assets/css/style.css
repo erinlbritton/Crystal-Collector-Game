@@ -1,0 +1,131 @@
+
+#firstrow {
+    margin-top: 60px;
+}
+
+#headertext {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 18px;
+    line-height: 200%;
+}
+
+#bodytext {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 200%;
+}
+
+#targetScore {
+    display: inline;
+}
+
+.img-position {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.rupee:hover {
+    cursor: pointer;
+}
+
+.rupee-thumb {
+    margin: 5px;
+    width: 10px;
+    height: auto;
+}
+
+.fill {
+    background-color: black;
+    color: white;    
+    border-radius: 4px;
+    top: 0;
+    bottom: 0;
+}
+
+.row {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#lastrow {
+    padding-top: 0px;
+    border-radius: 0px;
+    padding-bottom: 0px;
+
+}
+
+.panel-content  {
+    color: white;
+    font-size: 16px;
+    text-align: left;
+    padding: 15px 30px 15px 30px;
+}
+
+.panel {
+    background-color: #333333;
+    margin-bottom: 30px;
+}
+
+.panel-heading {
+    background-color: #191919;
+    font-size: 18px;
+}
+
+.fireleft, .fireright{
+	background: url("../images/fire.png") no-repeat;
+}
+
+.fireleft{
+	background-position: 0 0;
+	width: 60px;
+	height: 60px;
+}
+
+.fireright{
+	background-position: -63px 0;
+	width: 60px;
+	height: 60px;
+}
+
+body {
+    background: url("../images/tile.png");
+    background-repeat: repeat-x repeat-y;
+    background-attachment: fixed;
+    background-position: top top;
+    background-color: black;
+    height: 100%;
+}
+
+.link {
+    padding-left: 30%;
+    padding-bottom: 100px;
+}
+
+.fairy {
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.modal-body {
+    background-color: #333333;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.modal-footer {
+    background-color: #333333;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    border-top: 1px solid #333333;
+}
+
+.modal-header {
+    background-color: #191919;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 16px;
+    border-bottom: 1px solid #333333;
+}
+
+.close {
+    color: white;
+}

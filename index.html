@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Press+Start+2P" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <title>Crystal Collector Game</title>
+</head>
+<body>
+<center>
+    <div class="container" id="firstrow">
+            <div class="row fill" id="headertext">
+                <div class="col-md-2"></div>
+                <div class="col-md-8">
+                    It's dangerous to go empty-handed!<br>
+                    Click to collect <div id="targetScore"></div> rupees
+                </div>
+                <div class="col-md-2"></div>
+            </div>
+            <div class="row fill">
+                <div class="col-md-3">
+                    <div class="fireleft pull-right"></div>
+                </div>
+                <div class="col-md-6">
+                    <img src="assets/images/npc.png">
+                </div>
+                <div class="col-md-3">
+                    <div class="fireright pull-left"></div>
+                </div>
+            </div>
+            <div class="row fill">
+                <div class="col-md-2"></div>
+                <div class="col-md-8" id="rupeeId">
+                    
+                        <img class="img-position rupee" id="rupee1" src="assets/images/rupee1.png">
+                        <img class="img-position rupee" id="rupee2" src="assets/images/rupee2.png">
+                        <img class="img-position rupee" id="rupee3" src="assets/images/rupee3.png">
+                        <img class="img-position rupee" id="rupee4" src="assets/images/rupee4.png">
+                    
+                </div>
+                <div class="col-md-2"></div>
+            </div>
+            <div class="row fill">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-8">
+                        <div class="row" id="bodytext">
+                            <div class="col-md-6">
+                                <div class="panel">
+                                    <div class="panel-heading">Total</div>
+                                    <div class="panel-body panel-content">
+                                        <div id="globalWins"></div>
+                                        <div id="globalLosses"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="panel">
+                                    <div class="panel-heading">Current Rupees</div>
+                                    <div class="panel-body panel-content" id="counterId">
+                                        <div id="currentRupees"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2"></div>
+            </div>
+            <div class="row" id="lastrow">
+                <div class="col-md-4 col-md-offset-4 fill" id="lastrow">
+                    <img class="link" src="assets/images/link.png">
+                </div>
+            </div>
+    </div>
+
+</center>    
+</body>
+<script src="assets/javascript/game.js"></script>
+</html>
