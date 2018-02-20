@@ -1,12 +1,11 @@
 
-#firstrow {
-    margin-top: 60px;
-}
-
-#headertext {
-    font-family: 'Press Start 2P', cursive;
-    font-size: 18px;
-    line-height: 200%;
+body {
+    background: url("../images/tile.png");
+    background-repeat: repeat-x repeat-y;
+    background-attachment: fixed;
+    background-position: top top;
+    background-color: black;
+    height: 100%;
 }
 
 #bodytext {
@@ -14,23 +13,13 @@
     line-height: 200%;
 }
 
-#targetScore {
-    display: inline;
+.close {
+    color: white;
 }
 
-.img-position {
-    margin-left: 5%;
-    margin-right: 5%;
-}
-
-.rupee:hover {
-    cursor: pointer;
-}
-
-.rupee-thumb {
-    margin: 5px;
-    width: 10px;
-    height: auto;
+.fairy {
+    padding-top: 20px;
+    padding-left: 20px;
 }
 
 .fill {
@@ -39,35 +28,6 @@
     border-radius: 4px;
     top: 0;
     bottom: 0;
-}
-
-.row {
-    padding-top: 15px;
-    padding-bottom: 15px;
-}
-
-#lastrow {
-    padding-top: 0px;
-    border-radius: 0px;
-    padding-bottom: 0px;
-
-}
-
-.panel-content  {
-    color: white;
-    font-size: 16px;
-    text-align: left;
-    padding: 15px 30px 15px 30px;
-}
-
-.panel {
-    background-color: #333333;
-    margin-bottom: 30px;
-}
-
-.panel-heading {
-    background-color: #191919;
-    font-size: 18px;
 }
 
 .fireleft, .fireright{
@@ -86,23 +46,40 @@
 	height: 60px;
 }
 
-body {
-    background: url("../images/tile.png");
-    background-repeat: repeat-x repeat-y;
-    background-attachment: fixed;
-    background-position: top top;
-    background-color: black;
-    height: 100%;
+#firstrow {
+    margin-top: 60px;
+}
+
+#footer {
+    height: 100px;
+    background: black;
+    width: 30%;
+}
+#headertext {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 18px;
+    line-height: 200%;
+}
+
+.img-position {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.instructions {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+#lastrow {
+    padding-top: 0px;
+    border-radius: 0px;
+    padding-bottom: 0px;
+
 }
 
 .link {
-    padding-left: 30%;
-    padding-bottom: 100px;
-}
-
-.fairy {
-    padding-top: 20px;
-    padding-left: 20px;
+    padding-left: 17.5%;
 }
 
 .modal-body {
@@ -126,6 +103,47 @@ body {
     border-bottom: 1px solid #333333;
 }
 
-.close {
+.panel-content  {
     color: white;
+    font-size: 16px;
+    text-align: left;
+    padding: 15px 30px 15px 30px;
+}
+
+.panel {
+    background-color: #333333;
+    margin-bottom: 30px;
+}
+
+.panel-heading {
+    background-color: #191919;
+    font-size: 18px;
+}
+
+.row {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.rupee:hover {
+    cursor: pointer;
+}
+
+.rupee-thumb {
+    margin: 5px;
+    width: 10px;
+    height: auto;
+}
+
+#targetScore {
+    display: inline;
+}
+
+#wrap {
+    min-height: 100%;
+    height: 100%;
+    /* Negative indent footer by its height */
+    margin: 0 auto -100px;
+    /* Pad bottom by footer height */
+    padding: 0 0 100px;
 }
