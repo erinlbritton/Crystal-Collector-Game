@@ -25,6 +25,8 @@
                         "Thank you for playing!"
                 ];
 
+                $(".link").tooltip({'placement': 'right', 'html': 'true'});
+                $(".npc").tooltip({'placement': 'left', 'html': 'true'});
         // Resets global vars, removes values from imgs, generates random values/clicks/target, assigns new values to imgs/html
                 function reset() {
                         counter = 0;
@@ -54,7 +56,7 @@
                         $.each(setValues, function(i) {
                                 targetScore += setValues[i] * neededClicks[i];
                         })
-                        document.querySelector("#targetScore").innerHTML = targetScore;
+                        document.querySelector("#targetScore").innerHTML = "Click to collect " + targetScore + " rupees!";
                 }
 
         // Modal function pops up when game is over

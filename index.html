@@ -7,9 +7,7 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Press+Start+2P" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
     <link rel="stylesheet" href="assets/css/style.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
+    
     <title>Crystal Collector Game</title>
 </head>
 <body>
@@ -20,7 +18,7 @@
                     <div class="col-md-2"></div>
                     <div class="col-md-8">
                         It's dangerous to go empty-handed!<br>
-                        Click to collect <div id="targetScore"></div> rupees!<br>             
+                        <div id="targetScore">Ask Link how to play!</div><br>             
                     </div>
                     <div class="col-md-2"></div>
             </div>
@@ -29,7 +27,7 @@
                         <div class="fireleft pull-right"></div>
                     </div>
                     <div class="col-md-6">
-                        <img src="assets/images/npc.png">
+                        <img class="npc" src="assets/images/npc.png" data-toggle="tooltip" title="I'm not Link! He's Link!">
                     </div>
                     <div class="col-md-3">
                         <div class="fireright pull-left"></div>
@@ -77,10 +75,13 @@
 </div>  
 <footer id="footer" class="container">
     <div class="container">
-        <img class="link" src="assets/images/link.png">
+        <img class="link" src="assets/images/link.png" data-toggle="tooltip"
+        title='Click a rupee to set each rupee to a random value and set a total target amount. Match the target exactly to win!'>
     </div>
 </footer>
-
-</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script src="assets/javascript/game.js"></script>
+</body>
+
 </html>
