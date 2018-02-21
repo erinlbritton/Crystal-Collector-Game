@@ -12,76 +12,76 @@
 </head>
 <body>
 <div id="wrap">
-<center>
-    <div class="container" id="firstrow">
-            <div class="row fill" id="headertext">
-                    <div class="col-md-2"></div>
-                    <div class="col-md-8">
-                        It's dangerous to go empty-handed!<br>
-                        <div id="targetScore">Ask Link how to play!</div><br>             
+        <center>
+            <div class="container" id="firstrow">
+                    <div class="row fill" id="headertext">
+                            <div class="col-md-2"></div>
+                            <div class="col-md-8">
+                                It's dangerous to go empty-handed!<br>
+                                <div id="targetScore">Ask Link how to play!</div><br>             
+                            </div>
+                            <div class="col-md-2"></div>
                     </div>
-                    <div class="col-md-2"></div>
-            </div>
-            <div class="row fill">
-                    <div class="col-md-3">
-                        <div class="fireleft pull-right"></div>
-                    </div>
-                    <div class="col-md-6">
-                        <img class="npc" src="assets/images/npc.png" data-toggle="tooltip" title="I'm not Link! He's Link!">
-                    </div>
-                    <div class="col-md-3">
-                        <div class="fireright pull-left"></div>
-                    </div>
-            </div>
-            <div class="row fill">
-                    <div class="col-md-2"></div>
-                    <div class="col-md-8" id="rupeeId">
-                        
-                            <img class="img-position rupee" id="rupee1" src="assets/images/rupee1.png">
-                            <img class="img-position rupee" id="rupee2" src="assets/images/rupee2.png">
-                            <img class="img-position rupee" id="rupee3" src="assets/images/rupee3.png">
-                            <img class="img-position rupee" id="rupee4" src="assets/images/rupee4.png">
-                        
-                    </div>
-                    <div class="col-md-2"></div>
-            </div>
-            <div class="row fill">
-                    <div class="col-md-2"></div>
-                    <div class="col-md-8">
-                        <div class="row" id="bodytext">
+                    <div class="row fill">
+                            <div class="col-md-3 hidden-sm hidden-xs">
+                                <div class="fireleft pull-right"></div>
+                            </div>
                             <div class="col-md-6">
-                                <div class="panel">
-                                    <div class="panel-heading">Total</div>
-                                    <div class="panel-body panel-content">
-                                        <div id="globalWins"></div>
-                                        <div id="globalLosses"></div>
+                                <img class="npc" src="assets/images/npc.png" data-toggle="tooltip" title="I'm not Link! He's Link!">
+                            </div>
+                            <div class="col-md-3 hidden-sm hidden-xs">
+                                <div class="fireright pull-left"></div>
+                            </div>
+                    </div>
+                    <div class="row fill">
+                            <div class="col-md-2"></div>
+                            <div class="col-md-8" id="rupeeId">
+                                
+                                    <img class="img-position rupee" id="rupee1" src="assets/images/rupee1.png">
+                                    <img class="img-position rupee" id="rupee2" src="assets/images/rupee2.png">
+                                    <img class="img-position rupee" id="rupee3" src="assets/images/rupee3.png">
+                                    <img class="img-position rupee" id="rupee4" src="assets/images/rupee4.png">
+                                
+                            </div>
+                            <div class="col-md-2"></div>
+                    </div>
+                    <div class="row fill">
+                            <div class="col-md-2"></div>
+                            <div class="col-md-8">
+                                <div class="row" id="bodytext">
+                                    <div class="col-md-6">
+                                        <div class="panel">
+                                            <div class="panel-heading">Total</div>
+                                            <div class="panel-body panel-content">
+                                                <div id="globalWins"></div>
+                                                <div id="globalLosses"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="panel">
+                                            <div class="panel-heading">Current Rupees</div>
+                                            <div class="panel-body panel-content" id="counterId">
+                                                <div id="currentRupees"></div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-6">
-                                <div class="panel">
-                                    <div class="panel-heading">Current Rupees</div>
-                                    <div class="panel-body panel-content" id="counterId">
-                                        <div id="currentRupees"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                            <div class="col-md-2"></div>
                     </div>
-                    <div class="col-md-2"></div>
+            </div>   
+        </center> 
+                
+        <footer id="footer" class="container">
+            <div class="container">
+                <img class="link" src="assets/images/link.png" data-toggle="tooltip"
+                title='Click a rupee to set each rupee to a random value and set a total target amount. Match the target exactly to win!'>
             </div>
-    </div>   
-</center> 
-</div>  
-<footer id="footer" class="container">
-    <div class="container">
-        <img class="link" src="assets/images/link.png" data-toggle="tooltip"
-        title='Click a rupee to set each rupee to a random value and set a total target amount. Match the target exactly to win!'>
-    </div>
-</footer>
+        </footer>
+</div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script src="assets/javascript/game.js"></script>
 </body>
-
 </html>

@@ -24,9 +24,11 @@
                         "GameSpot featured The Legend of Zelda as one of the 15 most influential games of all time, for being an early example of open world, nonlinear gameplay, and for its introduction of battery backup saving, laying the foundations for later action-adventure games like Metroid and role-playing video games like Final Fantasy, while influencing most modern games in general. In 2009, Game Informer called The Legend of Zelda ''no less than the greatest game of all time'' on their list of ''The Top 200 Games of All Time,'' saying that it was ''ahead of its time by years if not decades.''",
                         "Thank you for playing!"
                 ];
+                
+        // Initialize tooltips for Link and NPC
+                $(".link").tooltip({'placement': 'right'});
+                $(".npc").tooltip({'placement': 'left'});
 
-                $(".link").tooltip({'placement': 'right', 'html': 'true'});
-                $(".npc").tooltip({'placement': 'left', 'html': 'true'});
         // Resets global vars, removes values from imgs, generates random values/clicks/target, assigns new values to imgs/html
                 function reset() {
                         counter = 0;
