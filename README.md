@@ -26,4 +26,11 @@ $(".link").tooltip({'placement': 'right'});
 <img class="link" src="#" data-toggle="tooltip" title="This is the tooltip text">
 ```
 
-The first time a crystal is clicked, the target number is displayed and each crystal is set to a random value for the duration of the round. Each click adds to the player's counter and displays a smaller crystal to visually record their clicks. Each round lasts until the player's counter matches or exceeds the target number. If the counter matches the target number, the number of wins increases by 1 and a modal is triggered including trivia about Nintendo's Legend of Zelda. If the counter exceeds the target number, the number of losses increases by 1 and a modal is triggered including a fairy to give the player another life to try again. There are a total of 10 trivia elements, and any wins exceeding 10 returns a default congratulatory message of "Thank you for playing!" The first click following each win or loss resets the target value, the value of each crystal, and the player's counter.
+The first time a crystal is clicked, the target number is displayed and each crystal is set to a random value for the duration of the round. Each click adds to the player's counter and displays a smaller crystal to visually record their clicks. 
+
+Each round lasts until the player's counter matches or exceeds the target number. 
+* If the counter matches the target number, the number of wins increases by 1 and a modal is triggered including trivia about Nintendo's Legend of Zelda. 
+* If the counter exceeds the target number, the number of losses increases by 1 and a modal is triggered including a fairy to give the player another life to try again. 
+* There are a total of 10 trivia elements, and any wins exceeding 10 returns a default congratulatory message of "Thank you for playing!" 
+
+The first click following each win or loss resets the target value, the value of each crystal, and the player's counter.
